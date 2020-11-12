@@ -15,7 +15,7 @@ The turtlesim that exist in ROS was used to implement this assignment and it has
 
 # FInite State Machine:
 
-![alt text](https://ibb.co/TRDYBSn)
+![STATE MACHINE](https://user-images.githubusercontent.com/23742278/98973855-f1255600-251c-11eb-9b57-1e51a729b77b.png)
 
 # How to Install:
 
