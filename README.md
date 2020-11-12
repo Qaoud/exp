@@ -17,6 +17,10 @@ The turtlesim that exist in ROS was used to implement this assignment and it has
 
 ![STATE MACHINE](https://user-images.githubusercontent.com/23742278/98973855-f1255600-251c-11eb-9b57-1e51a729b77b.png)
 
+# Software Architecture: 
+
+![EXP_ARCH](https://user-images.githubusercontent.com/23742278/98977559-65fa8f00-2521-11eb-93e2-476f325821b5.png)
+
 # How to Install:
 
 Fisrt you have to clone this reposiroty into your src folder by doing the following:
