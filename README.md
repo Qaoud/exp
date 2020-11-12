@@ -51,13 +51,13 @@ this will make the robot move to these coordinates.
 
 # Function Explanation
 
-- ```sh void tour(turtlesim::Pose goal_pose); ``` For moving node randomly on 2D map on normal behaviour.
-- ```sh  bool checkWall(turtlesim::Pose goal_pose);``` For hecking if next point is inside of the map.
-- ```sh void move(double speed, double distance, bool isForward);``` For checking next point if isForward and move node at linear.x direction.
-- ```sh void rotate(double angular_speed, double angle, bool cloclwise);``` For checking and determining angular.z direction.
-- ```sh double degrees2radians(double angle_in_degrees);``` For calculating radian from degree.
-- ```sh double setDesiredOrientation(double desired_angle_radians);``` For understanding desired orientation.
-- ```sh void moveGoal(turtlesim::Pose goal_pose, double distance_tolerance);``` //this will move robot to goal For moving turtlesim_node to specific location.
-- ```sh double getDistance(double x1, double y1, double x2, double y2);``` For calculating distance between current and next location.
-- ```sh void updatePose(const turtlesim::Pose::ConstPtr & pose_message);``` For calling when initializing subscriber.
-- ```sh bool playCallBack(custom_messages::Play::Request& req, custom_messages::Play::Response& res);``` For calling when initializing rosService server.
+- ```void tour(turtlesim::Pose goal_pose);``` For moving node randomly on 2D map on normal behaviour.
+- ```bool checkWall(turtlesim::Pose goal_pose);``` For hecking if next point is inside of the map.
+- ```void move(double speed, double distance, bool isForward);``` For checking next point if isForward and move node at linear.x direction.
+- ```void rotate(double angular_speed, double angle, bool cloclwise);``` For checking and determining angular.z direction.
+- ```double degrees2radians(double angle_in_degrees);``` For calculating radian from degree.
+- ```double setDesiredOrientation(double desired_angle_radians);``` For understanding desired orientation.
+- ```void moveGoal(turtlesim::Pose goal_pose, double distance_tolerance);``` //this will move robot to goal For moving turtlesim_node to specific location.
+- ```double getDistance(double x1, double y1, double x2, double y2);``` For calculating distance between current and next location.
+- ```void updatePose(const turtlesim::Pose::ConstPtr & pose_message);``` For calling when initializing subscriber.
+- ```bool playCallBack(custom_messages::Play::Request& req, custom_messages::Play::Response& res);``` For calling when initializing rosService server.
