@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/qaoud/exp_ws/src
+CMAKE_SOURCE_DIR = /home/qaoud/exp_as1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/qaoud/exp_ws/build
+CMAKE_BINARY_DIR = /home/qaoud/exp_as1/build
 
 # Utility rule file for turtlesim_generate_messages_py.
 
@@ -63,10 +63,10 @@ main_package/CMakeFiles/turtlesim_generate_messages_py.dir/build: turtlesim_gene
 .PHONY : main_package/CMakeFiles/turtlesim_generate_messages_py.dir/build
 
 main_package/CMakeFiles/turtlesim_generate_messages_py.dir/clean:
-	cd /home/qaoud/exp_ws/build/main_package && $(CMAKE_COMMAND) -P CMakeFiles/turtlesim_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/qaoud/exp_as1/build/main_package && $(CMAKE_COMMAND) -P CMakeFiles/turtlesim_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : main_package/CMakeFiles/turtlesim_generate_messages_py.dir/clean
 
 main_package/CMakeFiles/turtlesim_generate_messages_py.dir/depend:
-	cd /home/qaoud/exp_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/qaoud/exp_ws/src /home/qaoud/exp_ws/src/main_package /home/qaoud/exp_ws/build /home/qaoud/exp_ws/build/main_package /home/qaoud/exp_ws/build/main_package/CMakeFiles/turtlesim_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/qaoud/exp_as1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/qaoud/exp_as1/src /home/qaoud/exp_as1/src/main_package /home/qaoud/exp_as1/build /home/qaoud/exp_as1/build/main_package /home/qaoud/exp_as1/build/main_package/CMakeFiles/turtlesim_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : main_package/CMakeFiles/turtlesim_generate_messages_py.dir/depend
 

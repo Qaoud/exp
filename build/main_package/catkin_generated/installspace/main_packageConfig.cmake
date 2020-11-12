@@ -67,14 +67,14 @@ set(main_package_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(main_package_SOURCE_PREFIX /home/qaoud/exp_ws/src/main_package)
-  set(main_package_DEVEL_PREFIX /home/qaoud/exp_ws/devel)
+  set(main_package_SOURCE_PREFIX /home/qaoud/exp_as1/src/main_package)
+  set(main_package_DEVEL_PREFIX /home/qaoud/exp_as1/devel)
   set(main_package_INSTALL_PREFIX "")
   set(main_package_PREFIX ${main_package_DEVEL_PREFIX})
 else()
   set(main_package_SOURCE_PREFIX "")
   set(main_package_DEVEL_PREFIX "")
-  set(main_package_INSTALL_PREFIX /home/qaoud/exp_ws/install)
+  set(main_package_INSTALL_PREFIX /home/qaoud/exp_as1/install)
   set(main_package_PREFIX ${main_package_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/qaoud/exp_ws/install/lib;/home/qaoud/exp_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/qaoud/exp_as1/install/lib;/home/qaoud/exp_as1/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

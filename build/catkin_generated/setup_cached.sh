@@ -7,5 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/qaoud/exp_ws/build'
-export ROS_PACKAGE_PATH='/home/doruk/exp_ws/src:/home/qaoud/exp_ws/src:/opt/ros/kinetic/share'
+export PWD='/home/qaoud/exp_as1/build'
+export ROS_PACKAGE_PATH='/home/doruk/exp_ws/src:/home/qaoud/exp_ws/src:/home/qaoud/exp_as1/src:/opt/ros/kinetic/share'

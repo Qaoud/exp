@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/qaoud/exp_ws/src/custom_messages/srv/Play.srv"
+services_str = "/home/qaoud/exp_as1/src/custom_messages/srv/Play.srv"
 pkg_name = "custom_messages"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

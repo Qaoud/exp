@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/custom_messages_generate_messages_nodejs"
-  "/home/qaoud/exp_ws/devel/share/gennodejs/ros/custom_messages/srv/Play.js"
+  "/home/qaoud/exp_as1/devel/share/gennodejs/ros/custom_messages/srv/Play.js"
 )
 
 # Per-language clean rules from dependency scanning.

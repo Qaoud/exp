@@ -1,8 +1,8 @@
-# Install script for directory: /home/qaoud/exp_ws/src/main_package
+# Install script for directory: /home/qaoud/exp_as1/src/main_package
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/qaoud/exp_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/qaoud/exp_as1/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/qaoud/exp_ws/build/main_package/catkin_generated/installspace/main_package.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/qaoud/exp_as1/build/main_package/catkin_generated/installspace/main_package.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/main_package/cmake" TYPE FILE FILES
-    "/home/qaoud/exp_ws/build/main_package/catkin_generated/installspace/main_packageConfig.cmake"
-    "/home/qaoud/exp_ws/build/main_package/catkin_generated/installspace/main_packageConfig-version.cmake"
+    "/home/qaoud/exp_as1/build/main_package/catkin_generated/installspace/main_packageConfig.cmake"
+    "/home/qaoud/exp_as1/build/main_package/catkin_generated/installspace/main_packageConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/main_package" TYPE FILE FILES "/home/qaoud/exp_ws/src/main_package/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/main_package" TYPE FILE FILES "/home/qaoud/exp_as1/src/main_package/package.xml")
 endif()
 

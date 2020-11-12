@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/custom_messages_generate_messages_lisp"
-  "/home/qaoud/exp_ws/devel/share/common-lisp/ros/custom_messages/srv/Play.lisp"
+  "/home/qaoud/exp_as1/devel/share/common-lisp/ros/custom_messages/srv/Play.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

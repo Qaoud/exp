@@ -1,4 +1,4 @@
-prefix=/home/qaoud/exp_ws/devel
+prefix=/home/qaoud/exp_as1/devel
 
 Name: main_package
 Description: Description of main_package

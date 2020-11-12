@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/qaoud/exp_ws/src/main_package/src/main.cpp" "/home/qaoud/exp_ws/build/main_package/CMakeFiles/main.dir/src/main.cpp.o"
+  "/home/qaoud/exp_as1/src/main_package/src/main.cpp" "/home/qaoud/exp_as1/build/main_package/CMakeFiles/main.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/qaoud/exp_ws/devel/include"
+  "/home/qaoud/exp_as1/devel/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

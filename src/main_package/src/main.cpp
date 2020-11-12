@@ -62,9 +62,9 @@ int main(int argc, char **argv){
 
 		srand(time(NULL));
 		energy = (rand()%10)+1;
-		printf("energy: %d\n",energy);
+		printf("My energy is: %d\n",energy);
 			
-		if(energy>4){
+		if(energy>2){
 			tour(goal_pose);
 			ros::Duration(5).sleep();
 		}
@@ -72,7 +72,7 @@ int main(int argc, char **argv){
 			
 			home_pose.x = 9;
 			home_pose.y = 9;
-			printf("So tired! \n");
+			printf("So tired! I have to go home and sleep \n");
 			ros::Duration(2).sleep();
 			moveGoal(home_pose,0.01);
 			int wait = (rand()%10)+1;
@@ -222,7 +222,7 @@ void moveGoal(turtlesim::Pose goal_pose, double distance_tolerance){
 		loop_rate.sleep();
 
 	}while(getDistance(turtlesim_pose.x, turtlesim_pose.y, goal_pose.x, goal_pose.y)>distance_tolerance);
-	cout<<"at there!"<<endl;
+	cout<<"I'm at the target point!"<<endl;
 	vel_msg.linear.x = 0;
 	vel_msg.angular.z = 0;
 	velocity_publisher.publish(vel_msg);
