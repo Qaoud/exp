@@ -9,9 +9,9 @@ This assignment was made for the subject Experimental Robotics Laboratory at Uni
 
 The turtlesim that exist in ROS was used to implement this assignment and it has energy that moves control its three modes:
 
- - Normal mode, where the turtle keeps moving randomly, as long as it's energy ```sh ENERGY >2```.
- - The relaxing (being tired) mode, where the turtle being tired and wants to rest at a specific point (home) when it's energy is```sh ENERGY <=2```.
- - A play mode, where the user can play with the turtle by giving a specific point that the turtle can go to. For this action, we use a customized service called ```sh /play ```, and we can call it by ```sh rosservice call /play.```
+ - Normal mode, where the turtle keeps moving randomly, as long as it's energy ```ENERGY >2```.
+ - The relaxing (being tired) mode, where the turtle being tired and wants to rest at a specific point (home) when it's energy is```ENERGY <=2```.
+ - A play mode, where the user can play with the turtle by giving a specific point that the turtle can go to. For this action, we use a customized service called ```/play```, and we can call it by ```rosservice call /play```
 
 # How to Install:
 
