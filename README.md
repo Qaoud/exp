@@ -49,7 +49,7 @@ $rosservice call /play 2 4
 this will make the robot move to these coordinates.
 
 
-#Function Explanation
+# Function Explanation
 
 - void tour(turtlesim::Pose goal_pose); For moving node randomly on 2D map on normal behaviour.
 - bool checkWall(turtlesim::Pose goal_pose); For hecking if next point is inside of the map.
