@@ -31,7 +31,7 @@ $ cd ..
 $ catkin_make
 ```
 After we ```catkin_make ``` we have to source the path in the bash file, if not already, by adding the following line in the bash file:
-```sh source ~/exp_as1/devel/setup.bash ```
+``` source ~/exp_as1/devel/setup.bash ```
 Then you have to bring the turtle simulation to life by:
 ```sh
 $roscore 
