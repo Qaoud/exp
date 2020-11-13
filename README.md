@@ -13,7 +13,7 @@ The turtlesim that exist in ROS was used to implement this assignment and it has
  - The relaxing (being tired) mode, where the turtle being tired and wants to rest at a specific point (home) when it's energy is```ENERGY <=2```.
  - A play mode, where the user can play with the turtle by giving a specific point that the turtle can go to. For this action, we use a customized service called ```/play```, and we can call it by ```rosservice call /play```
 
-# FInite State Machine:
+# Finite State Machine:
 
 ![STATE MACHINE](https://user-images.githubusercontent.com/23742278/98973855-f1255600-251c-11eb-9b57-1e51a729b77b.png)
 
